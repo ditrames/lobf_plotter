@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lobf-plotter"
+version = "0.1.0"
+description = "simple commandline line of best fit plotter"
+authors = ["max rickard <ditrames@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "lobf_plotter"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
